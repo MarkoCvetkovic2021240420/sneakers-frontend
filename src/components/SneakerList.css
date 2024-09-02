@@ -1,0 +1,29 @@
+/* .sneaker-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    padding: 16px;
+} */
+
+.sneaker-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centriranje kartica */
+    gap: 16px; /* Razmak između kartica */
+  }
+  
+.sneaker-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sneaker-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 16px;
+}

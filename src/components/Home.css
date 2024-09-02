@@ -1,0 +1,38 @@
+.home-container {
+  text-align: center;
+  padding: 50px;
+  background-color: #1e1e1e; /* Tamno siva za pozadinu stranice */
+  height: calc(84.5vh); /* Oduzimanje visine navbar-a */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.home-header {
+  font-size: 3em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.home-description {
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
+
+.home-button {
+  padding: 15px 30px;
+  font-size: 1.2em;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.home-button:hover {
+  background-color: #0056b3;
+}
